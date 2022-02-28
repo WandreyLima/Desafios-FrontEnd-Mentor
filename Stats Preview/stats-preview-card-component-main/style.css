@@ -1,0 +1,58 @@
+@charset 'UFT-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root {
+    --backgroundcolor: hsl(233, 47%, 7%);
+    --cardcolor: hsl(244, 38%, 16%);
+    --colorimage: hsl(277, 64%, 61%);
+    --paragraphcolor: hsla(0, 0%, 100%, 0.75);
+    --statscolor: hsla(0, 0%, 100%, 0.6); 
+    --titlefont: 'Inter', sans-serif; 
+    --font02: 'Lexend Deca', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--backgroundcolor);
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    height: 446px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cardcolor);
+    border-radius: 10px;
+}
+
+picture {
+    display: flex;
+}
+
+img {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#text h1 {
+    color: var(--paragraphcolor);
+    font: var(--titlefont);
+    font-weight: 700;
+}
+
+#text p {
+    color: var(--paragraphcolor);
+}
