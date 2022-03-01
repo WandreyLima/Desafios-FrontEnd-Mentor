@@ -47,12 +47,30 @@ img {
     border-radius: 0px 10px 10px 0px;
 }
 
-#text h1 {
-    color: var(--paragraphcolor);
-    font: var(--titlefont);
-    font-weight: 700;
+#text {
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    text-align: justify;
 }
 
-#text p {
+#text h1 {
+    color: white;
+    font-family: var(--titlefont);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#firstp {
+    color: var(--statscolor);
+    font-family: var(--font02);
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+#secondp {
     color: var(--paragraphcolor);
+    font-family: var(--font02);
+    
 }
