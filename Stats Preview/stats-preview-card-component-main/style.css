@@ -69,7 +69,18 @@ img {
 
 }
 
-#secondp {
+#stats {
+    width: 400px;
+    height: 57px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+
+.secondp {
     color: var(--paragraphcolor);
     font-family: var(--font02);
     
