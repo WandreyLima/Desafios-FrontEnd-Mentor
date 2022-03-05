@@ -61,6 +61,10 @@ img {
     margin-bottom: 30px;
 }
 
+b {
+    color: var(--colorimage);
+}
+
 #firstp {
     color: var(--statscolor);
     font-family: var(--font02);
@@ -77,6 +81,10 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
+    font-size: small;
+    font-weight: 400;
+    color: var(--statscolor);
+
     
 }
 
@@ -85,3 +93,14 @@ img {
     font-family: var(--font02);
     
 }
+
+span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: var(--titlefont);
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
