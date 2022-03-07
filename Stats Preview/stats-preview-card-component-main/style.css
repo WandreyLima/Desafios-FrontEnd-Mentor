@@ -34,13 +34,14 @@ body {
 
 #container {
     display: flex;
-    width: 80%;
-    height: 57.5%;
+    width: 80vw;
     justify-content: center;
     align-items: center;
     background-color: var(--cardcolor);
     border-radius: 10px;
     flex-wrap: wrap-reverse;
+    min-width: 654px;
+    max-width: 1440px;
 }
 
 picture {
