@@ -23,35 +23,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
-    height: 100vh;
+    width: 97vw;
+    height: 97vh;
     margin: auto;
     background-color: var(--backgroundcolor);
+    min-width: 360px;
+    max-width: 1440px;
+    flex-flow: row wrap-reverse;
 }
 
 #container {
     display: flex;
-    width: 80%;
-    height: 446px;
+    width: 70vw;
     justify-content: center;
     align-items: center;
     background-color: var(--cardcolor);
     border-radius: 10px;
+    flex-wrap: wrap-reverse;
+    min-width: 654px;
+    max-width: 1440px;
 }
 
 picture {
     display: flex;
+    min-width: 360px;
 }
 
 img {
     border-radius: 0px 10px 10px 0px;
+    min-width: 360px;
 }
 
+/* Como diminuir a imagem do  picture ... background image??*/
+
+
 #text {
-    width: 400px;
+    width: 360px;
     height: 340px;
     margin: auto;
     text-align: justify;
+    flex-flow: row wrap;
 }
 
 #text h1 {
@@ -59,6 +70,10 @@ img {
     font-family: var(--titlefont);
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+b {
+    color: var(--colorimage);
 }
 
 #firstp {
@@ -69,8 +84,34 @@ img {
 
 }
 
-#secondp {
+#stats {
+    width: 400px;
+    height: 57px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    font-size: small;
+    font-weight: 400;
+    color: var(--statscolor);
+
+    
+}
+
+.secondp {
     color: var(--paragraphcolor);
     font-family: var(--font02);
     
 }
+
+span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: var(--titlefont);
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
